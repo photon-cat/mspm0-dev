@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "cust_symbols") (type "KiCad") (uri "/home/xray/Downloads/0154003_DR/KiCADv6/cust_symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "alpha_test") (type "KiCad") (uri "/home/xray/projects/mspm0-dev/mspm0-dev-hw") (options "") (descr ""))
+)
