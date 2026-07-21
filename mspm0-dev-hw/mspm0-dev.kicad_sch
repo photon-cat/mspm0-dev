@@ -4898,12 +4898,6 @@
 		(uuid "0fb6920e-d513-4daf-8fb8-a629755fa719")
 	)
 	(junction
-		(at 82.55 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12ca8eb8-378b-4e55-8819-9bd12178a33c")
-	)
-	(junction
 		(at 180.34 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4934,7 +4928,7 @@
 		(uuid "436a23d1-5195-4eac-8d28-5d16b20fb340")
 	)
 	(junction
-		(at 93.98 41.91)
+		(at 85.09 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43e50fa6-cb6a-4f63-97bf-3e986ac2e46e")
@@ -5665,7 +5659,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 39.37) (xy 93.98 41.91)
+			(xy 85.09 39.37) (xy 85.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6145,7 +6139,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 93.98 41.91)
+			(xy 83.82 41.91) (xy 85.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6275,16 +6269,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 82.55 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9952851-6736-4fae-9b8b-106e5118ed5f")
-	)
-	(wire
-		(pts
 			(xy 111.76 171.45) (xy 111.76 162.56)
 		)
 		(stroke
@@ -6315,7 +6299,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 41.91) (xy 82.55 41.91)
+			(xy 73.66 41.91) (xy 76.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6455,23 +6439,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 41.91) (xy 93.98 43.18)
+			(xy 85.09 41.91) (xy 85.09 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f602b3c4-9ae9-4bb3-a4b8-e14b85f36f61")
-	)
-	(wire
-		(pts
-			(xy 82.55 41.91) (xy 82.55 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa7d0c25-bbe3-49c5-a774-f89b07c1615a")
 	)
 	(wire
 		(pts
@@ -7325,87 +7299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 82.55 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09c22456-98fa-4936-90d4-82224c25d12b")
-		(property "Reference" "C2"
-			(at 82.804 44.958 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470n"
-			(at 83.058 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 83.5152 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 82.55 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e3dabd2-d0ac-4656-817f-f2d2a93fa888")
-		)
-		(pin "2"
-			(uuid "47ffca9d-d586-4db8-96dd-4e014a0da076")
-		)
-		(instances
-			(project "mspm0-dev"
-				(path "/829545e3-2e72-4f1f-8ec5-307ce5c51fc4"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 170.18 113.03 0)
 		(unit 1)
@@ -8065,7 +7958,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 93.98 41.91 270)
+		(at 85.09 41.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8076,7 +7969,7 @@
 		(fields_autoplaced yes)
 		(uuid "25e306c7-0ea2-4bc1-a160-cca7adc026cb")
 		(property "Reference" "#FLG03"
-			(at 95.885 41.91 0)
+			(at 86.995 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +7980,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 98.044 41.9099 90)
+			(at 89.154 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8098,7 +7991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 41.91 0)
+			(at 85.09 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8109,7 +8002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 41.91 0)
+			(at 85.09 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,7 +8013,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 93.98 41.91 0)
+			(at 85.09 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8544,7 +8437,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 41.91 90)
+		(at 80.01 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8554,7 +8447,7 @@
 		(dnp no)
 		(uuid "3916d955-94ea-43ad-8f13-383f835e2cda")
 		(property "Reference" "R3"
-			(at 88.9 41.91 90)
+			(at 80.01 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8564,7 +8457,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 88.9 44.196 90)
+			(at 80.01 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8574,7 +8467,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 88.9 43.688 90)
+			(at 80.01 43.688 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8585,7 +8478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 41.91 0)
+			(at 80.01 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8596,7 +8489,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 41.91 0)
+			(at 80.01 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8782,7 +8675,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 93.98 39.37 0)
+		(at 85.09 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8792,7 +8685,7 @@
 		(dnp no)
 		(uuid "4716e384-b296-42ed-81bf-0b5c1d1ae6be")
 		(property "Reference" "#PWR024"
-			(at 93.98 43.18 0)
+			(at 85.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8803,7 +8696,7 @@
 			)
 		)
 		(property "Value" "+VBUSF"
-			(at 93.98 34.544 0)
+			(at 85.09 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8813,7 +8706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 39.37 0)
+			(at 85.09 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8824,7 +8717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 39.37 0)
+			(at 85.09 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,7 +8728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 93.98 39.37 0)
+			(at 85.09 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9812,7 +9705,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 46.99 0)
+		(at 85.09 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9822,8 +9715,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72444d22-0c5d-4711-b6db-0bc69b23a103")
-		(property "Reference" "C3"
-			(at 97.79 45.7199 0)
+		(property "Reference" "C2"
+			(at 88.9 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9834,7 +9727,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 97.79 48.2599 0)
+			(at 88.9 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9845,7 +9738,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 94.9452 50.8 0)
+			(at 86.0552 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +9749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 46.99 0)
+			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9867,7 +9760,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 93.98 46.99 0)
+			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,7 +9779,7 @@
 		(instances
 			(project "mspm0-dev"
 				(path "/829545e3-2e72-4f1f-8ec5-307ce5c51fc4"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10241,7 +10134,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 50.8 0)
+		(at 85.09 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10252,7 +10145,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a75fcd9-c1b5-4514-b7b2-a9380144b065")
 		(property "Reference" "#PWR02"
-			(at 93.98 57.15 0)
+			(at 85.09 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10263,7 +10156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 55.88 0)
+			(at 85.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10274,7 +10167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 50.8 0)
+			(at 85.09 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10285,7 +10178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 50.8 0)
+			(at 85.09 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,7 +10189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 50.8 0)
+			(at 85.09 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11076,85 +10969,6 @@
 			(project "mspm0-dev"
 				(path "/829545e3-2e72-4f1f-8ec5-307ce5c51fc4"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "950ad61e-48d6-48b8-be24-5d579cc1f0d8")
-		(property "Reference" "#PWR03"
-			(at 82.55 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ecacc53-3856-433c-8a4d-2d17e9704be4")
-		)
-		(instances
-			(project "mspm0-dev"
-				(path "/829545e3-2e72-4f1f-8ec5-307ce5c51fc4"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
